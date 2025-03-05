@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.ha-container {
+  display: flex;
+}
+
+.ha-left-content {
+  padding: 50px 1px 0px 90px;
+  border-radius: 10px;
+  width: 615px;
+  height: 98%;
+  position: fixed;
+  background: #f4f6f9;
+}
+
+.ha-right-content {
+  width: 47%;
+  margin-right: 50px;
+  margin-left: 740px;
+  max-height: 500px;
+  overflow-y: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px #e2e2e2;
+  border-radius: 10px;
+}
+
+.ha-right-content::-webkit-scrollbar {
+  width: 0px;
+}
+
+.ha-assement-title {
+  font-weight: 600;
+  font-size: 17px;
+  color: #383838;
+  margin-top: 8px;
+  line-height: 130%;
+}
+
+/* Header Section */
+.ha-header {
+  width: 85%;
+  border-bottom: 0.5px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.ha-back-btn {
+  display: inline-flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #1c4980;
+}
+
+.ha-title-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.ha-log-title {
+  color: #1c4980;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  margin-bottom: 0px;
+}
+
+.ha-logo {
+  background: #fff;
+  border: 0.865px solid rgba(221, 229, 234, 0.8);
+  border-radius: 6px;
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 80px;
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.ha-logo img {
+  position: absolute;
+  width: 75%;
+  height: auto;
+  inset: 0;
+  margin: auto;
+}
+
+.ha-quiz-title {
+  display: grid;
+  flex-direction: column;
+  color: #1c4980;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* Easy Level Section */
+.ha-easy-level-section {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.ha-quiz-info {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-bottom: 20px;
+}
+
+.ha-quiz-info-text {
+  border-bottom: 0.5px solid #ccc;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: #383838;
+}
+
+.ha-quiz-info-text p {
+  margin: 5px 0;
+}
+
+.ha-quiz-info-text p:first-child {
+  font-weight: 500;
+}
+
+/* Right Content Section */
+.ha-right-title {
+  font-size: 23px;
+  color: #383838;
+  margin-top: 35px;
+}
+
+.ha-right-about {
+  font-size: 16px;
+  color: #727272;
+  margin: 5px 0 0;
+}
+
+.ha-guideline-content {
+  margin-top: 20px;
+}
+
+.ha-greet-line {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: #383838;
+  font-weight: bold;
+}
+
+.ha-guideline-content ul {
+  margin-bottom: 20px;
+  margin-left: -8px;
+  margin-top: 8px;
+  font-size: 16px;
+  list-style-position: inside;
+}
+
+.ha-guideline-content li {
+  margin-bottom: 8px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+/* Start Box Section */
+.ha-start-box {
+  color: #3e6394;
+  font-size: 14px;
+  padding: 20px;
+  margin: 30px 0;
+  box-shadow: 0px 0px 10px 0px #e2e2e2;
+  background-color: #fff;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.ha-start-box input {
+  margin-right: 10px;
+  padding: 5px;
+  width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.ha-start-box button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #1c4980;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.ha-start-box button:hover {
+  background-color: #173a6b;
+}
+
+.ha-start-box input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}

@@ -1,0 +1,171 @@
+.inst-review-testimonial-section {
+    text-align: center;
+    padding: 40px;
+    height: 590px;
+    margin-bottom: 20px;
+}
+
+.inst-heading{
+    text-transform: lowercase;
+    color: #121212;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: system-ui;
+}
+
+.inst-first-w{
+    text-transform: uppercase;
+}
+  
+.inst-review-highlight {
+    color: #000000;
+    font-weight: 700;
+}
+  
+.inst-review-subtitle {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    text-transform: lowercase;
+}
+
+.inst-sub-first{
+    text-transform: capitalize;
+}
+  
+.inst-review-testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+  
+.inst-review-left-section {
+    position: relative;
+    width: 40%;
+}
+  
+.inst-review-user-image {
+    width: 560px;
+    object-fit: cover;
+    filter: brightness(80%);
+    height: 350px;
+    margin-left: -240px;
+    border-radius: 5px;
+    position: absolute;
+}
+  
+.inst-review-student-details {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: #e3e3e3;
+}
+  
+.inst-review-user-name {
+    color: #fff;
+    font-weight: 550;
+    position: absolute;
+    top: -30px;
+}
+  
+.inst-review-play-button {
+    position: absolute;
+    top: 264px;
+    right: -65px;
+    background-color: #31eaff; /* Customize the button color */
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px 25px;
+    width: 19%;
+    height: 21%;
+    cursor: pointer;
+}
+  
+.inst-review-right-section {
+    display: flex;
+    margin-left: 65px;
+    flex-direction: column;
+    width: 45%;
+    height: 350px;
+    background-color: white;
+    padding: 36px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+  
+.inst-review-testimonial-text {
+    text-align: left;
+    font-weight: 100;
+    line-height: 1.5 !important;
+    font: 22px 'montserrat-regular';
+    color: #1f1f1f;
+    padding: 0px 15px 25px;
+    text-transform: lowercase;
+}
+
+  
+.inst-review-student-signature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.inst-review-signature-image {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+  
+.pro-inst-name {
+    font-size: 20px;
+    margin-top: 18px;
+}
+
+.pro-inst-detail{
+    font-size: 1rem;
+    text-align: left;
+    color: #ccc;
+}
+
+.inst-p-n-btn{
+    display: flex;
+    justify-content: right;
+    margin-top: 48px;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+
+.inst-previous{
+    color: #ccc;
+    background-color: #ffff;
+    width: 40px;
+    height: 40px;
+    border: 1px  solid #ccc;
+    
+}
+
+.inst-previous:hover{
+    background-color: #31eaff;
+    border: none;
+    color: #fff;
+}
+
+.inst-next{
+    color: #ccc;
+    background-color: #ffff;
+    width: 40px;
+    height: 40px;
+    border: 1px  solid #ccc;
+}
+
+.inst-next:hover{
+    background-color: #31eaff;
+    border: none;
+    color: #fff;
+}
+
+

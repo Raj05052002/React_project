@@ -1,0 +1,192 @@
+.order-review {
+    padding: 50px 100px 10px 100px;
+    margin: 0 ;
+    font-family: system-ui;
+  }
+  
+  .steps {
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    width: 70%;
+  }
+
+  .ra-process{
+    font-size: 10px;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ra-icon{
+    background-color: #000000;
+    color: #ffffff;
+    width: 25px;
+    height: 25px;
+    padding: 4px 4px 4px 4px;
+    border-radius: 8px;
+  }
+  
+  .order-item {
+    width: 60%;
+    
+  }
+
+  .ra-all-order{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    padding: 15px 1px 15px 1px;
+    border-bottom: .5px solid #ccc;
+  }
+
+  .order-items img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .summary-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-top: -675px;
+    margin-right: -20px;
+  }
+
+  .ra-subtotal{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 20px;
+    border-bottom: .5px solid #ccc;
+  }
+  
+  .ra-discount-tag{
+    padding-top: 20px;
+    font-size: 12px;
+
+  }
+
+  .discount input {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    width: 210px;
+    height: 36px;
+    padding: 5px;
+    padding-left: 10px;
+    border: 2px solid #000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .ra-discount-code{
+    display: flex;
+    margin-top: 5px;
+  }
+
+  .ra-apply{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    width: 90px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .ra-delivery-charge{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: .5px solid #ccc;
+  }
+
+  .ra-grand-total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .place-order-btn {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .estimated-delivery{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .shipping-address{
+    font-size: 17px;
+    width: 60%;
+    padding: 30px 1px 15px 0px;
+    border-bottom: .5px solid #ccc;
+  }
+
+  .payment-method{
+    font-size: 17px;
+    width: 60%;
+    padding: 30px 1px 15px 0px;
+    border-bottom: .5px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  .ra-edit-btn{
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    margin-bottom: -4px;
+    width: 25px;
+    height: 25px;
+    padding: 4px 4px 4px 4px;
+    font-size: 2px;
+    cursor: pointer;
+
+  }
+
+  .ra-ship-name{
+    font-size: 16px;
+    margin-top: 20px;
+
+  }
+
+  .ra-ship-add{
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 315px;
+  }
+
+  .ra-pay-detail{
+    font-size: 16px;
+    margin-top: 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 490px;
+  }
+
+  

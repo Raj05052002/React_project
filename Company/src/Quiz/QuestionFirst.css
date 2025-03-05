@@ -1,0 +1,130 @@
+.qf-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .qf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .qf-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004A91;
+  }
+  
+  .qf-timer {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .qf-timer-icon {
+    margin-right: 5px;
+  }
+  
+  .qf-time {
+    font-weight: bold;
+  }
+  
+  .qf-time-unit {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .qf-main {
+    padding: 20px;
+  }
+  
+  .qf-question-section {
+    margin-bottom: 20px;
+  }
+  
+  .qf-question-section h2 {
+    font-size: 22px;
+    color: #004A91;
+  }
+  
+  .qf-question-section p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .qf-marks {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .qf-answer-section {
+    margin-top: 20px;
+  }
+  
+  .qf-answer-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .qf-answer-option input {
+    margin-right: 10px;
+  }
+  
+  .qf-answer-option.qf-selected {
+    background-color: #e9f7fd;
+    border-color: #004A91;
+  }
+  
+  .qf-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .qf-finish-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .qf-footer-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .qf-skip-button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .qf-submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
